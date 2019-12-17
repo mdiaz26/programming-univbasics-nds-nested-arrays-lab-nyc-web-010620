@@ -24,7 +24,7 @@ def assembled_matrix
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
 end
 
-def sorted_matrix(matrix)
+def sorted_matrix
   new_matrix = [matrix[0].sort, matrix[1].sort]
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
